@@ -1,0 +1,11 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading__title {
+  font-size: 64px;
+  color: #4060ff;
+}

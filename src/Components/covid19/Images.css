@@ -1,0 +1,20 @@
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageGallery__box {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.imgBox {
+  width: 250px;
+}
+
+.imgBox__img {
+  width: 100%;
+  height: auto;
+}

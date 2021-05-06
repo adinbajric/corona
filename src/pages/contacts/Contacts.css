@@ -1,0 +1,30 @@
+.form__map {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.form__all {
+  margin: 0 97px;
+}
+
+.popUp__hidden {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .form__all {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .form__map {
+    flex-direction: column;
+    margin-top: 64px;
+    align-items: center;
+  }
+
+  .form__all {
+    width: 90%;
+  }
+}

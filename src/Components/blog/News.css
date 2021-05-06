@@ -1,0 +1,24 @@
+.btn__news {
+  max-width: 772px;
+  width: 100%;
+  background: #ffffff;
+  color: #4060ff;
+  border: 1px solid #4060ff;
+  margin-bottom: 40px;
+}
+
+.btn__news:hover {
+  background-color: #f8941d;
+  border: none;
+  color: #fff;
+}
+
+.news {
+  max-width: 772px;
+  margin: 0 auto;
+}
+
+.blog__heading {
+  margin-top: 24px;
+  text-align: left;
+}

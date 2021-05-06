@@ -1,0 +1,12 @@
+.chart {
+  max-width: 772px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    padding: 0 20px;
+  }
+}

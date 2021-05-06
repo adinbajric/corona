@@ -1,0 +1,15 @@
+.symptoms__other {
+  background: #fff;
+}
+
+.symptoms-other__img {
+  margin-top: 32px;
+}
+
+.notVisible {
+  display: none;
+}
+
+.symptoms__info {
+  transition: 1s ease-in;
+}

@@ -1,0 +1,31 @@
+footer {
+  background: #272727;
+  height: 160px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 18px;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.footer-second {
+  text-align: end;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

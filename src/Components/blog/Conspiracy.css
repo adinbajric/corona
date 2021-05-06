@@ -1,0 +1,50 @@
+.conspiracy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.conspiracy__title {
+  top: 20%;
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+}
+
+.conspiracy__quote {
+  top: 60%;
+  position: absolute;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #fff;
+}
+
+.conspiracy__img {
+  max-width: 772px;
+  width: 100%;
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 75%);
+  filter: brightness(50%);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .conspiracy__title {
+    top: 15%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .conspiracy__title {
+    top: 10%;
+    padding-left: 5px;
+  }
+
+  .conspiracy__quote {
+    top: 55%;
+    padding-left: 5px;
+  }
+}

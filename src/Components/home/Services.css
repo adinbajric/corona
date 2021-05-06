@@ -1,0 +1,90 @@
+.services__title--small {
+  color: #4060ff;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.services-cards__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services {
+  background: #f7f7f7;
+}
+
+.service-card__content {
+  height: 250px;
+  padding-left: 20px;
+}
+
+.services_card {
+  background: #fff;
+  max-width: 208px;
+  padding: 24px 16px;
+  border-radius: 20px;
+  margin: 40px 45px;
+}
+
+.services_card:hover {
+  transform: scale(1.05);
+}
+
+.services__title--big {
+  color: #3d3d3d;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.services__info {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3d3d;
+  max-width: 772px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.services__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-card__title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #4060ff;
+  margin-bottom: 16px;
+}
+
+.service-card__price {
+  font-size: 48px;
+  line-height: 56px;
+  color: #3d3d3d;
+  margin-bottom: 43px;
+}
+
+.service-card__service {
+  font-size: 14px;
+  line-height: 24px;
+  color: #3d3d3d;
+}
+
+.btn__service {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .services__about {
+    padding: 0 20px;
+  }
+
+  .services_card {
+    margin: 20px 22.5px;
+  }
+}

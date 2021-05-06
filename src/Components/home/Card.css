@@ -1,0 +1,47 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f7f7f7;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 20px 20px;
+  padding: 15px 15px;
+}
+
+.card__status {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card__date {
+  color: #4060ff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.card__number {
+  font-size: 40px;
+}
+
+.card__deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.card__recovored {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.card__infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+@media (max-width: 900px) {
+  .card__number {
+    font-size: 28px;
+  }
+}

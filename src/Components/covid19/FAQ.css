@@ -1,0 +1,62 @@
+.FAQ {
+  display: grid;
+  margin-top: 24px;
+  grid-column-gap: 20px;
+  grid-template-areas:
+    "header header"
+    "header2 header2"
+    "content1 content2"
+    "btn btn";
+  justify-content: center;
+}
+
+.FAQ__images {
+  grid-area: c;
+  text-align: center;
+}
+
+.FAQ__title--big {
+  grid-area: header2;
+}
+
+.FAQ__heading--small {
+  grid-area: header;
+  text-align: center;
+}
+
+.FAQ__title--small {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.FAQ__container1 {
+  grid-area: content1;
+}
+.FAQ__container2 {
+  grid-area: content2;
+}
+
+.FAQ__title--big {
+  text-align: center;
+}
+
+.FAQ__container {
+  max-width: 472px;
+}
+
+.btn__FAQ {
+  grid-area: btn;
+  text-align: center;
+  margin: 40px 0;
+}
+
+@media (max-width: 576px) {
+  .FAQ {
+    grid-template-areas:
+      "header header"
+      "header2 header2"
+      "content1 content1"
+      "content2 content2"
+      "btn btn";
+  }
+}

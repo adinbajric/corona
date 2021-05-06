@@ -1,0 +1,157 @@
+/*Desktop View*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background: #272727;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  width: 100%;
+  height: 72px;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  max-width: 496px;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  text-decoration: none;
+}
+
+.navbar__title {
+}
+
+.navbar__options {
+  display: flex;
+  max-width: 941px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navbar__option {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+.navbar__option :hover {
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu__icon {
+  color: #fff;
+}
+
+.navbar__title {
+  max-width: 107px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #f8941d;
+  max-width: 172px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0 10px;
+  }
+
+  .btn--contact {
+    max-width: 90px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .navbar__title {
+    display: none;
+  }
+}
+ */
+@media (max-width: 576px) {
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .btn--contact {
+    display: none;
+  }
+
+  .navbar__options {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 71px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .navbar__options.navbar__options--active {
+    background: #272727;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .mobile-menu__icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
