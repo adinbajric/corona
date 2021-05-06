@@ -16,20 +16,10 @@
 }
 
 .title__small {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 32px;
-  color: #4060ff;
-  text-align: center;
   margin-bottom: 8px;
 }
 
 .info__title--big {
-  color: #3d3d3d;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
   margin-bottom: 24px;
 }
 

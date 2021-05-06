@@ -14,6 +14,13 @@ html {
   margin-bottom: 8px;
 }
 
+.title__big {
+  color: #3d3d3d;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+}
+
 .link__title {
   text-decoration: none;
 }
@@ -45,6 +52,15 @@ html {
 
 @media (max-width: 576px) {
   .title__big {
-    font-size: 20px;
+    color: #3d3d3d;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .title__small {
+    font-size: 18px;
+    line-height: 32px;
   }
 }

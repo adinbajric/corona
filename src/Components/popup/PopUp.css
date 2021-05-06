@@ -9,7 +9,7 @@
 .popUp {
   display: flex;
   position: fixed;
-  z-index: 1;
+  z-index: 999 !important;
   flex-direction: column;
   padding: 40px 0 40px 50px;
   max-width: 572px;
@@ -42,16 +42,22 @@
 .popUp__titleExit {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .popUp__exit {
   width: 16px;
   height: 16px;
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .title__big {
   margin-bottom: 24px;
+}
+
+.title__popUp {
+  text-align: left;
 }
 
 .popUp__text {
@@ -81,7 +87,9 @@
 }
 
 @media (max-width: 576px) {
-  .title__popUp {
+  .popUp__text,
+  .popUp__title,
+  .popUp__exit {
     display: none;
   }
 }

@@ -1,10 +1,6 @@
 .services__title--small {
-  color: #4060ff;
-  font-size: 20px;
-  line-height: 32px;
   margin-top: 40px;
   margin-bottom: 10px;
-  font-weight: 400;
 }
 
 .services-cards__container {
@@ -32,12 +28,6 @@
 
 .services_card:hover {
   transform: scale(1.05);
-}
-
-.services__title--big {
-  color: #3d3d3d;
-  font-size: 32px;
-  line-height: 40px;
 }
 
 .services__info {
@@ -86,5 +76,9 @@
 
   .services_card {
     margin: 20px 22.5px;
+  }
+
+  .service-card__price {
+    font-size: 40px;
   }
 }
