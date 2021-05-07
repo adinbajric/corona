@@ -28,4 +28,8 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .footer-container {
+    padding-top: 20px;
+  }
 }
