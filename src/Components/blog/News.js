@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./News.css";
 import Article from "./Article";
 import Loading from "../loading/Loading";
