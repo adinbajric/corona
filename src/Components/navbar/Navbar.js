@@ -7,7 +7,6 @@ import White from "../../assets/White.svg";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const [colorChange, setColorChange] = useState(false);
 
   let history = useHistory();
   const redirect = () => {
@@ -15,15 +14,6 @@ const Navbar = () => {
   };
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const changeNavColor = () => {
-    if (window.scrollY > 80) {
-      setColorChange(true);
-    } else {
-      setColorChange(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeNavColor);
 
   return (
     <nav className="navbar">

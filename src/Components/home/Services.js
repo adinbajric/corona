@@ -60,9 +60,7 @@ function Services({ showPopUp }) {
             <li className="service-card__service">
               Modern vehicles with flashing warning lights
             </li>
-            <li className="service-card__service">
-              Fully qualified doctor on board
-            </li>
+            <li className="service-card__service">Fully qualified doctor</li>
           </ul>
           <button onClick={handleSubmit} className="btn btn__service">
             Select Plan

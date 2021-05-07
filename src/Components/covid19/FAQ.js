@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./FAQ.css";
-import Images from "./Images";
 
 function FAQ() {
   return (
