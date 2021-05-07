@@ -36,11 +36,11 @@
 
 @media (max-width: 900px) {
   .info__text-container {
-    padding: 0 10px;
+    padding: 0 12px;
   }
 
   .info__title--big {
-    padding: 0 10px;
+    padding: 0 12px;
   }
 }
 
