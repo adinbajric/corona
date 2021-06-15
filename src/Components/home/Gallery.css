@@ -1,5 +1,6 @@
 .galleryContainer {
   margin-bottom: 105px;
+  position: relative;
 }
 
 .gallery__img {

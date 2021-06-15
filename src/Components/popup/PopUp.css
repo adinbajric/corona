@@ -9,7 +9,7 @@
 .popUp {
   display: flex;
   position: fixed;
-  z-index: 999 !important;
+  z-index: 1;
   flex-direction: column;
   padding: 40px 0 40px 50px;
   max-width: 572px;
